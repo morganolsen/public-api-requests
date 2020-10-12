@@ -27,7 +27,7 @@ function addSearchForm() {
 
     document.querySelector("#search-input").addEventListener('input', performSearch);
     document.querySelector("form").addEventListener('submit', e => {
-        e.target.preventDefault();
+        e.preventDefault();
         performSearch();
     });
 }
