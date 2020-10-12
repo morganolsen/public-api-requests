@@ -16,7 +16,7 @@ html, body {
 body {
     font-family: "Nunito", sans-serif;
     text-align: center;
-    background: rgba(235, 235, 235, 0.9);
+    background: rgba(235, 235, 245, 0.9);
 }
 
 header {
@@ -29,9 +29,10 @@ header {
 }
 
 header h1 {
-    font-size: 1.25em;
+    font-size: 1.3em;
     color: rgba(50, 50, 50, 0.9);
     margin-top: 35px;
+    font-weight: bold;
 }
 
 .search-input {
@@ -156,6 +157,7 @@ header h1 {
     outline: none;
     border-radius: 0.25em;
     border: 1px solid rgba(50, 50, 50, 0.3);
+    font-weight: bold;
 }
 
 .modal-img {
